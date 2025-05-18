@@ -1,14 +1,17 @@
 package com.nyfaria.examplemod;
 
-import com.nyfaria.examplemod.cap.ExampleHolderAttacher;
 import com.nyfaria.examplemod.config.ExampleClientConfig;
 import com.nyfaria.examplemod.config.ExampleConfig;
-import com.nyfaria.examplemod.datagen.*;
-import com.nyfaria.examplemod.init.AbilityInit;
+import com.nyfaria.examplemod.datagen.ModBlockStateProvider;
+import com.nyfaria.examplemod.datagen.ModItemModelProvider;
+import com.nyfaria.examplemod.datagen.ModLangProvider;
+import com.nyfaria.examplemod.datagen.ModLootTableProvider;
+import com.nyfaria.examplemod.datagen.ModRecipeProvider;
+import com.nyfaria.examplemod.datagen.ModSoundProvider;
+import com.nyfaria.examplemod.datagen.ModTagProvider;
 import com.nyfaria.examplemod.init.BlockInit;
 import com.nyfaria.examplemod.init.EntityInit;
 import com.nyfaria.examplemod.init.ItemInit;
-import com.nyfaria.examplemod.init.MorphInit;
 import com.nyfaria.examplemod.network.NetworkHandler;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -39,10 +42,10 @@ public class ExampleMod {
         EntityInit.ENTITIES.register(modBus);
         BlockInit.BLOCKS.register(modBus);
         BlockInit.BLOCK_ENTITIES.register(modBus);
-        AbilityInit.ABILITIES.register(modBus);
-        MorphInit.MORPHS.register(modBus);
+//        AbilityInit.ABILITIES.register(modBus);
+//        MorphInit.MORPHS.register(modBus);
 
-        ExampleHolderAttacher.register();
+//        ExampleHolderAttacher.register();
     }
 
     @SubscribeEvent

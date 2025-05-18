@@ -1,7 +1,5 @@
 package com.nyfaria.examplemod.util;
 
-import dev._100media.hundredmediaabilities.capability.MarkerHolderAttacher;
-import dev._100media.hundredmediaabilities.init.HMAMarkerInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.Mth;
 import net.minecraft.util.RandomSource;
@@ -119,7 +117,7 @@ public class Utils {
         return new Vec2((float)x, (float)y);
     }
 
-    public static float scaleAbilityDamage(LivingEntity source, float baseDamage) {
-        return baseDamage * (1.0f + (0.05f * MarkerHolderAttacher.getMarkerStackCount(source, HMAMarkerInit.ABILITY_DAMAGE.get())));
-    }
+//    public static float scaleAbilityDamage(LivingEntity source, float baseDamage) {
+//        return baseDamage * (1.0f + (0.05f * MarkerHolderAttacher.getMarkerStackCount(source, HMAMarkerInit.ABILITY_DAMAGE.get())));
+//    }
 }

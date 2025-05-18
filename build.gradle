@@ -141,17 +141,17 @@ dependencies {
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 
     // Capability Syncer
-    hundredMedia.addJarJarDep('dev._100media.capabilitysyncer:capabilitysyncer', capabilitysyncer_version, capabilitysyncer_version_range, null, '1.19')
+//    hundredMedia.addJarJarDep('dev._100media.capabilitysyncer:capabilitysyncer', capabilitysyncer_version, capabilitysyncer_version_range, null, '1.19')
 
     // Suggestion Provider Fix
-    runtimeOnly fg.deobf("curse.maven:suggestion-provider-fix-469647:${suggestion_provider_fix_file_id}")
-    hundredMedia.addJarJarDep('software.bernie.geckolib:geckolib-forge-1.19', geckolib_version, geckolib_version_range, null, null)
-    hundredMedia.addJarJarDep('net.tslat.smartbrainlib:SmartBrainLib-forge-1.19.2', sbl_version, sbl_version_range, null, null)
-    hundredMedia.addJarJarDep('dev._100media.hundredmediageckolib:hundredmediageckolib', hundredmediageckolib_version, hundredmediageckolib_version_range)
-    hundredMedia.addJarJarDep('dev.kosmx.player-anim:player-animation-lib-forge',player_anim_version,player_anim_version_range,null,null)
+//    runtimeOnly fg.deobf("curse.maven:suggestion-provider-fix-469647:${suggestion_provider_fix_file_id}")
+//    hundredMedia.addJarJarDep('software.bernie.geckolib:geckolib-forge-1.19', geckolib_version, geckolib_version_range, null, null)
+//    hundredMedia.addJarJarDep('net.tslat.smartbrainlib:SmartBrainLib-forge-1.19.2', sbl_version, sbl_version_range, null, null)
+//    hundredMedia.addJarJarDep('dev._100media.hundredmediageckolib:hundredmediageckolib', hundredmediageckolib_version, hundredmediageckolib_version_range)
+//    hundredMedia.addJarJarDep('dev.kosmx.player-anim:player-animation-lib-forge',player_anim_version,player_anim_version_range,null,null)
     // 100 Media Morphs
-    hundredMedia.addJarJarDep('dev._100media.hundredmediamorphs:hundredmediamorphs', hundredmediamorphs_version, hundredmediamorphs_version_range, 'fat')
-    hundredMedia.addJarJarDep('dev._100media.hundredmediaabilities:hundredmediaabilities', hundredmediaabilities_version, hundredmediaabilities_version_range, 'fat','1.19')
+//    hundredMedia.addJarJarDep('dev._100media.hundredmediamorphs:hundredmediamorphs', hundredmediamorphs_version, hundredmediamorphs_version_range, 'fat')
+//    hundredMedia.addJarJarDep('dev._100media.hundredmediaabilities:hundredmediaabilities', hundredmediaabilities_version, hundredmediaabilities_version_range, 'fat','1.19')
 
 }
 

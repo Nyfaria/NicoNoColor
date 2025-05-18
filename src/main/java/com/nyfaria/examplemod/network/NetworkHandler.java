@@ -2,8 +2,6 @@ package com.nyfaria.examplemod.network;
 
 import com.google.common.collect.ImmutableList;
 import com.nyfaria.examplemod.ExampleMod;
-import com.nyfaria.examplemod.cap.ExampleHolderAttacher;
-import dev._100media.capabilitysyncer.network.SimpleEntityCapabilityStatusPacket;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.simple.SimpleChannel;
@@ -23,10 +21,10 @@ public class NetworkHandler {
 
     public static void register() {
         List<BiConsumer<SimpleChannel, Integer>> packets = ImmutableList.<BiConsumer<SimpleChannel, Integer>>builder()
-                .add(SimpleEntityCapabilityStatusPacket::register)
+//                .add(SimpleEntityCapabilityStatusPacket::register)
                 .build();
 
-        SimpleEntityCapabilityStatusPacket.registerRetriever(ExampleHolderAttacher.EXAMPLE_RL, ExampleHolderAttacher::getExampleHolderUnwrap);
+//        SimpleEntityCapabilityStatusPacket.registerRetriever(ExampleHolderAttacher.EXAMPLE_RL, ExampleHolderAttacher::getExampleHolderUnwrap);
 
         packets.forEach(consumer -> consumer.accept(INSTANCE, getNextId()));
     }
