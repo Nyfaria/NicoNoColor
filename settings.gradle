@@ -13,6 +13,10 @@ pluginManagement {
             name '100Media'
             url 'https://maven.100media.dev'
         }
+        maven {
+            name = 'NeoForge'
+            url = uri("https://maven.neoforged.net/releases")
+        }
     }
     resolutionStrategy {
         eachPlugin {

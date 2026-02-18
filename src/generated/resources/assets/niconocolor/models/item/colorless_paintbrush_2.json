@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "niconocolor:item/colorless_paintbrush_2"
+  }
+}

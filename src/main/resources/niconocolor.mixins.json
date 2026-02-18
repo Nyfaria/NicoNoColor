@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.nyfaria.niconocolor.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "${mod_id}.refmap.json",
+  "mixins": [
+    "PaintingMixin"
+  ],
+  "client": [
+    "BlockRenderDispatcherMixin",
+    "ChunkRenderDispatcherMixin",
+    "LevelRendererMixin",
+    "LivingEntityRendererMixin",
+    "ModelBlockRendererMixin",
+    "PaintingRendererMixin",
+    "RenderLayerMixin",
+    "RenderTypeMixin",
+    "SimpleBakedModelMixin"
+  ],
+  "minVersion": "0.8.5"
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:logs",
+    "#minecraft:leaves",
+    "#minecraft:replaceable_plants",
+    "#minecraft:coral_plants",
+    "#minecraft:flowers",
+    "#minecraft:crops"
+  ]
+}
